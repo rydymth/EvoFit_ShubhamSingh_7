@@ -143,7 +143,11 @@ app.post('/api/game-stats', async (req, res) => {
       }
   
       console.log('Game sessions retrieved successfully for user:', Username);
-      res.json({ gameSessions: user.GameSessions });
+      res.json({
+        height: user.height,
+        weight: user.weight,
+        gameSessions: user.GameSessions
+    });
     } catch (error) {
       console.error('Error fetching game sessions:', error);
       res.status(500).json({ error: error.message });
