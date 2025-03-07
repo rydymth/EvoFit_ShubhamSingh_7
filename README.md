@@ -1,5 +1,8 @@
 # EvoFit
 
+Here is the link to our video presentation:
+https://drive.google.com/file/d/1vvw41eIsvq0IeJm13_sZ6xBPZA0Vpajv/view
+
 A lightweight web-application designed to track users steps, jumps and movement and thus calculate calories.
 
 This web-application utilizes the benefits of :
